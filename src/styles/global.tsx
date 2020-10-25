@@ -8,10 +8,14 @@ export default createGlobalStyle `
     box-sizing: border-box;
   };
 
+  div, header {
+    min-width: 336px;
+  }
+
   body, form {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 14px;
-    background-color: #DADADA;
+    background-color: #fcfcff;
     text-rendering: optimizeLegibility;
   };
 
@@ -25,16 +29,23 @@ export default createGlobalStyle `
     height: 60px;
     resize: vertical;
     color: #333;
-    background-color: #DADADA;
-    border: 1px solid #DADADA;
+    background-color: #fcfcff;
+    border: 0.3px solid #333;
     border-radius: 8px;
     padding: 0 24px;
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
   };
 
   button {
     cursor: pointer;
+  }
+
+  .empty {
+    width: 100vw;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
   }
 
   .button{
